@@ -1,6 +1,6 @@
 body {
     background-color: #fafafa;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #333;
 }
 
@@ -8,19 +8,91 @@ h1 {
     text-align: center;
 }
 
-button {
-    display: block;
-    width: 200px;
-    height: 50px;
-    margin: 20px auto;
-    font-size: 18px;
-    color: #fff;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+h2 {
+    font-weight: bold;
 }
 
-button:hover {
-    background-color: #0056b3;
+h3 {
+    font-style: italic;
+}
+
+p {
+    font-size: 30px;
+}
+  
+nav {
+    background-color: darkslateblue;
+}
+
+.button1 {
+    display: block;
+    background-color: rgb(237, 63, 63);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.button2 {
+    display: block;
+    background-color: transparent;
+    color: rgb(49, 132, 187);
+    border: solid rgb(49, 132, 187) 2px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.button3 {
+    display: block;
+    background-color: rgb(49, 132, 187);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 700;
+    transition: .15s;
+    box-shadow: 0px 5px 5px rgba(49, 132, 187, .5);
+}
+
+.button1:hover {
+    background-color: rgb(232, 38, 38);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.button1:active {
+    background-color: green;
+    color: black;
+    border: solid pink 4px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.button2:hover {
+    background-color: rgb(91, 108, 120);
+    color: black;
+    border: solid black 2px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.button2:active {
+    background-color: green;
+    color: black;
+    border: solid black 2px;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.button3:hover {
+    background-color: rgb(6, 76, 123);
+}
+
+.button3:active {
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
