@@ -24,6 +24,11 @@ nav {
     background-color: darkslateblue;
 }
 
+img {
+    width: 300px;
+    border-radius: 25px;
+}
+
 .button1 {
     display: block;
     background-color: rgb(237, 63, 63);
