@@ -101,3 +101,42 @@ img {
 .button3:active {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
+
+.client-section {
+    width: 100%;
+} 
+
+.client-title {
+    text-align: center;
+}
+
+.client-testimonials {
+    width: 100%;
+}
+
+.individual-testimonial {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px;
+    padding: 25px;
+}
+
+.testimonial-quote {
+    display: block;
+    font-size: medium;
+    text-align: center;
+}
+
+.testimonial-pic {
+    display: block;
+
+}
+
+.service-list {
+    height: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
