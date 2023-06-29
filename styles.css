@@ -20,8 +20,20 @@ p {
     font-size: 30px;
 }
   
-nav {
-    background-color: darkslateblue;
+.navbar {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin: 5x;
+    padding: 5px;
 }
 
 img {
